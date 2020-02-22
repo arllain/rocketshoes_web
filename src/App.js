@@ -1,13 +1,21 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import './config/ReactotronConfig';
+import GlobalStyles from './styles/global';
+import Header from './componets/Header';
+import Routes from './routes';
+import store from './store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>ReactJS</p>
-      </header>
-    </div>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Header />
+        <Routes />
+        <GlobalStyles />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
