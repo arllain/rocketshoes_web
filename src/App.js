@@ -3,15 +3,18 @@ import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 import GlobalStyles from './styles/global';
 import Header from './componets/Header';
+import { Provider } from 'react-redux';
+import store from './store';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes />
-      <GlobalStyles />
-    </BrowserRouter>
-    // <h1>Hello</h1>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Header />
+        <Routes />
+        <GlobalStyles />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
