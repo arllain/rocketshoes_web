@@ -10,7 +10,7 @@ export default function Home() {
           alt="Shoes"
         />
         <strong>Shoes</strong>
-        <span>R$ 130,00</span>
+        <span>$130,00</span>
         <button>
           <div>
             <MdAddShoppingCart size={16} color="#fff" /> 3
@@ -24,7 +24,7 @@ export default function Home() {
           alt="Shoes"
         />
         <strong>Shoes</strong>
-        <span>R$ 130,00</span>
+        <span>$130,00</span>
         <button>
           <div>
             <MdAddShoppingCart size={16} color="#fff" /> 3
@@ -38,7 +38,7 @@ export default function Home() {
           alt="Shoes"
         />
         <strong>Shoes</strong>
-        <span>R$ 130,00</span>
+        <span>$130,00</span>
         <button>
           <div>
             <MdAddShoppingCart size={16} color="#fff" /> 3
@@ -52,7 +52,7 @@ export default function Home() {
           alt="Shoes"
         />
         <strong>Shoes</strong>
-        <span>R$ 130,00</span>
+        <span>$130,00</span>
         <button>
           <div>
             <MdAddShoppingCart size={16} color="#fff" /> 3
@@ -66,7 +66,7 @@ export default function Home() {
           alt="Shoes"
         />
         <strong>Shoes</strong>
-        <span>R$ 130,00</span>
+        <span>$130,00</span>
         <button>
           <div>
             <MdAddShoppingCart size={16} color="#fff" /> 3
@@ -80,7 +80,7 @@ export default function Home() {
           alt="Shoes"
         />
         <strong>Shoes</strong>
-        <span>R$ 130,00</span>
+        <span>$130,00</span>
         <button>
           <div>
             <MdAddShoppingCart size={16} color="#fff" /> 3
