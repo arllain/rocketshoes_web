@@ -1,4 +1,5 @@
 import api from '../../../services/api';
+import history from '../../../services/history';
 import { call, put, all, takeLatest, select } from 'redux-saga/effects';
 import { toast } from 'react-toastify';
 import { addToCartSuccess, updateAmountSuccess } from './actions';
@@ -31,6 +32,7 @@ function* addToCart({ id }) {
     };
 
     yield put(addToCartSuccess(data));
+    history.push('/cart');
   }
 }
 
