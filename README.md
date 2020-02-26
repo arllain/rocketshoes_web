@@ -1,6 +1,7 @@
 # rocketshoes_web
+
 <h1 align="center">
-  <img alt="RocketShoes Web" title="RocketShoes" src=".github/logo.png" width="300px" />
+  <img alt="RocketShoes Web" title="RocketShoes" src=".github/logo.svg" width="300px" />
 </h1>
 
 <h3 align="center">RocketShoes Store</h3>
@@ -86,6 +87,7 @@ Add additional notes about how to deploy this on a live system.
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 axios
+
 - [axios](https://github.com/axios/axios) - axios
 - [immer](https://github.com/immerjs/immer) - immer
 - [polished](https://github.com/styled-components/polished) - polished
