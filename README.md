@@ -13,6 +13,7 @@
 ## 📝 Table of Contents
 
 - [About](#about)
+- [Demo](#demo)
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
 - [Usage](#usage)
@@ -23,6 +24,10 @@
 ## 🧐 About <a name = "about"></a>
 
 This is a study case project.
+
+## Demo
+
+![gif](.github/RocketShoes_web.gif)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
