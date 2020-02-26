@@ -1,7 +1,7 @@
 # rocketshoes_web
 
 <h1 align="center">
-  <img alt="RocketShoes Web" title="RocketShoes" src=".github/logo.svg" width="300px" />
+  <img alt="RocketShoes Web" title="RocketShoes" src=".github/logo.png" width="300px" />
 </h1>
 
 <h3 align="center">RocketShoes Store</h3>
